@@ -8,22 +8,22 @@ public class PingPongTest {
 
   //create a test
   @Test
-  public void isPingPong_forNumberDivisibleByFifteen_true() {
+  public void isPingPong_forNumberDivisibleByFifteen_pingpong() {
     PingPong pingPong = new PingPong();
-    assertEquals(true, pingPong.isPingPong(15));
+    assertEquals("pingpong", pingPong.isPingPong(15));
   }
 
   //create a test
   @Test
-  public void isPingPong_forNumberDivisibleByFive_true() {
+  public void isPingPong_forNumberDivisibleByFive_pong() {
     PingPong pingPong = new PingPong();
-    assertEquals(true, pingPong.isPingPong(5));
+    assertEquals("pong", pingPong.isPingPong(5));
   }
 
   @Test
-  public void isPingPong_forNumberDivisibleByThree_true() {
+  public void isPingPong_forNumberDivisibleByThree_ping() {
     PingPong pingPong = new PingPong();
-    assertEquals(true, pingPong.isPingPong(3));
+    assertEquals("ping", pingPong.isPingPong(3));
   }
 
 }
