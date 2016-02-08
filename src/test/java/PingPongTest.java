@@ -20,4 +20,10 @@ public class PingPongTest {
     assertEquals(true, pingPong.isPingPong(5));
   }
 
+  @Test
+  public void isPingPong_forNumberDivisibleByThree_true() {
+    PingPong pingPong = new PingPong();
+    assertEquals(true, pingPong.isPingPong(3));
+  }
+
 }
