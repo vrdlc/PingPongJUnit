@@ -12,4 +12,12 @@ public class PingPongTest {
     PingPong pingPong = new PingPong();
     assertEquals(true, pingPong.isPingPong(15));
   }
+
+  //create a test
+  @Test
+  public void isPingPong_forNumberDivisibleByFive_true() {
+    PingPong pingPong = new PingPong();
+    assertEquals(true, pingPong.isPingPong(5));
+  }
+
 }
