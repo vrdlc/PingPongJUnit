@@ -7,6 +7,8 @@ public class PingPong {
       return true;
     } else if (number % 5 == 0) {
       return true;
+    } else if(number % 3 == 0) {
+      return true;
     } else {
     return false;
   }
